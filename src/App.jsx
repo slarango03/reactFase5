@@ -23,8 +23,8 @@ function App() {
        <h4>C.C. 46673565</h4>
 
        <h6>Enlace del Proyecto</h6>
-       <a href="index.html"> Click aqui para ir al proyecto</a>
-       
+       <a href="inicio.html"> Click aqui para ir al proyecto</a>
+
        </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
