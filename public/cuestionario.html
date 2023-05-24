@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+</head>
+<body>
+    <h1 id="resultado">Responda las siguientes preguntas</h1>
+    <div>
+        <form name="formulario">
+            <h3>1. Cuantos tipos de CSS existen?</h3>
+            <input type="radio" name="r1" value="a"> a. 2 <br>
+            <input type="radio" name="r1" value="b"> b. 3 <br>
+            <input type="radio" name="r1" value="c"> c. 5 <br>
+
+            <h3>2. ¿Cuáles son las diferentes formas de posicionar un determinado elemento en CSS?:</h3>
+            <input type="radio" name="r2" value="a"> a. static <br>
+            <input type="radio" name="r2" value="b"> b. relative <br>
+            <input type="radio" name="r2" value="c"> c. a y b son correctas <br>
+
+            <h3>3.  ¿Cuál es la forma más eficiente de aplicar estilos CSS en un documento HTML?: </h3>
+            <input type="radio" name="r3" value="a"> a. En línea <br>
+            <input type="radio" name="r3" value="b"> b. Hojas de estilo externas<br>
+            <input type="radio" name="r3" value="c"> c. Mediante PHP <br>
+
+            <h3>4. ¿Cuáles de las siguientes declaraciones son propiedades o atributos?: </h3>
+            <input type="radio" name="r4" value="a"> a. h1 <br>
+            <input type="radio" name="r4" value="b"> b. background-color<br>
+            <input type="radio" name="r4" value="c"> c. italic <br>
+
+            <h3>5. ¿Cuáles de las siguientes declaraciones son selectores?: </h3>
+            <input type="radio" name="r5" value="a"> a. p <br>
+            <input type="radio" name="r5" value="b"> b. 50px <br>
+            <input type="radio" name="r5" value="c"> c. red<br>
+
+        <input type="button" value="Enviar" onclick="procesarRespuestas()">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="contenedor">
+    <header>
+        <h1 class="centrado">Selectores CSS </h1>
+    </header>
+    <nav> 
+        <ul class="menu-horizontal">                                                                                                                
+            <li> <a href="index.html"> Inicio</a> </li>
+            <li> <a href="audio.html"> Audio</a> </li>
+            <li> <a href="tema.html"> Mi Tema</a> </li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="menu-aside">
+        <li> <a href="index.html">Inicio</a> </li>
+        <li> <a href="audio.html">Audio del Tema</a> </li>
+        <li> <a href="tema.html">Mi Tema</a> </li>
+        <li> <a href="nosotros.html">Nosotros</a> </li>
+    </ul>
+    </aside>
+    <main>
+        <section>
+            <hr>
+             <h2>Como usar Selectores CSS</h2>
+                <p>
+                    Existen dos formas posibles de emplear selectores en CSS. Si tienes en un mismo documento tu código en HTML
+                    y tu código en CSS, lo único que tienes que hacer es añadir los selectores CSS en la cabecera (head) de tu
+                    sitio.
+                    Si, por el contrario, tu HTML y tu CSS están en documentos separados, quizá tendrás un documento
+                    etiquetado como index.html y otro como style.css. El archivo index.html deberá incluir una línea de
+                    código que haga un llamado al archivo CSS para que los estilos se muestren en tu sitio web
+                    correctamente.
+        
+        
+                </p>
+                <h3> Tipos de Selectores CSS</h3>
+                <h4> 1. Selector Universal:</h4>
+                <p>
+                    El asterisco (*) es el selector universal en CSS. De forma automática, el asterisco
+                    selecciona todos los elementos en un documento. Este selector puede utilizarse en combinación con espacios
+                    de nombres (namespace).
+                </p>
+                <P>
+                    Sintaxis
+                    * o *|* { propiedades de estilo } - selecciona todos los elementos
+                    ns|* { propiedades de estilo } - selecciona todos los elementos en el espacio de nombre (ns)
+                    |* { propiedades de estilo } - selecciona todos los elementos sin algún espacio de nombre definido
+        
+                </P>
+                
+        
+                <h4>2. Selector de Tipo: </h4>
+                <p>
+                    Un selector de tipo permite seleccionar todos los elementos en HTML que tienen un
+                    nombre de nodo común. Por ejemplo, al usar «a» el selector elegirá todos los elementos (a) y les aplicará el
+                    valor de la propiedad en CSS. «Input» seleccionará todos los elementos (input), «span» todos los
+                    elementos (span) y así sucesivamente.
+        
+                    Sintaxis:
+                    elemento { propiedades de estilo }
+                </p>
+        
+                <h4>3. Selector de Clase: </h4>
+                <p>
+                    Los selectores de clase son herramientas que, como su nombre lo indica,
+                    permiten seleccionar todos los elementos que tienen un mismo nombre de clase. Por ejemplo, .intro te
+                    permitirá elegir todos los elementos que pertenecen a la clase «intro», así como .index escogerá
+                    todo elemento que tenga una clase «index».
+                    Sintaxis:
+                    .nombre de clase { propiedades de estilo }
+                </p>
+        
+                <h4>4. Selector de ID: </h4>
+                <p>
+                    Un selector de ID está diseñado para seleccionar elementos con base en su
+                    atributo de ID. Por ejemplo, #toc seleccionará todos los elementos que tengas como ID «toc». Ten en
+                    cuenta que este selector solo funcionará cuando el valor dado en el selector es idéntico al del ID
+                    del atributo que quieres referir.
+                    Sintaxis:
+                    #nombre de ID { propiedades de estilo }
+                </p>
+        
+                <h4>5. Selector de Atributo: </h4>
+                <p>
+                    Los selectores de atributo están hechos para seleccionar todos los
+                    elementos que correspondan a un atributo específico o a un valor de atributo definido. Por ejemplo,
+                    a[href] elegirá todos los enlaces, mientras que a[href*="hubspot"] únicamente escogerá todas las URL
+                    que contengan la palabra «hubspot».
+        
+                    Sintaxis:
+                    [attr] { propiedades de estilo }
+                    [attr=value] { propiedades de estilo }
+                    [attr~=value] { propiedades de estilo }
+                    [attr|=value] { propiedades de estilo }
+                    [attr^=value] { propiedades de estilo }
+                    [attr$=value] { propiedades de estilo }
+                    [attr*=value] { propiedades de estilo }
+                </p>
+        
+                <h4>6. Selector de pseudo-clase: </h4>
+                <P>
+                    Un selector de pseudo-clase permite aplicar CSS a una selección de
+                    elementos o a elementos que se encuentran en un estado específico. Por ejemplo, :hover hará que
+                    únicamente se modifique el estilo de un elemento cuando el usuario se desplace sobre él. Otros
+                    ejemplos comunes son :active, :visited o :invalid.
+        
+                    Sintaxis:
+                    La sintaxis del selector de pseudo clase es:
+        
+                    selector:puedo-clase { propiedades de estilo }
+                </P>
+        </section>
+    </main>
+    <footer class="centrado">
+        <br>
+        Diseño de Sitios Web - UNAD Cead Duitama - 2023
+    </footer>
+</body>
+
+</html>
